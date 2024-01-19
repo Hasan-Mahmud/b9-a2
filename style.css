@@ -17,9 +17,12 @@
 
 .primary-paragraph-text {
     color: var(--secondary-color);
-    text-align: center;
     font-weight: 400;
     line-height: 1.6rem
+}
+
+.center-align{
+    text-align: center;
 }
 
 .secondary-paragraph-text {
@@ -40,6 +43,10 @@
     height: 52px;
     border-radius: 8px;
     background: var(--btn-color);
+    text-align: center;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 800; 
 }
 
 input[type=text] {
@@ -79,6 +86,10 @@ i {
     gap: 48px;
     /* padding: 0 135px; */
 
+}
+
+.top-margin{
+    margin-top: 30px;
 }
 
 .banner-content {
@@ -137,6 +148,17 @@ i {
     background: var(--btn-color);
     color: var(--white-color);
     border: 0;
+}
+
+/* Popular Tours Section Style */
+.our-popular-tours{
+    margin: 100px 135px;
+    display: flex;
+    gap: 50px;
+}
+
+.popular-tour-list {
+    padding: 20px
 }
 
 /* responsive for mobile or small device*/
