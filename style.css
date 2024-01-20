@@ -163,9 +163,9 @@ i {
 
 /* Destination Section Style */
 
-.destination{
+/* .destination{
     margin: 0px 135px;
-}
+} */
 
 .destination-content{
     width: 100%;
@@ -279,6 +279,51 @@ i {
         margin: 24px 0px;
         flex-direction: column;
         gap: 50px;
+    }
+
+    /* destination styles for mobile */
+
+    .destination-content{
+        margin: 0px -5px;
+    }
+
+    .destination-text-content h2{
+        color: var(--paragraph-color);
+        font-size: 1.3rem;
+        margin-top: 10px;
+    }
+
+    .destination-text-content p{
+        color: var(--paragraph-color);
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .container1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container1 img{
+        width: 100%;
+    }
+
+    .container2{ 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container2 img{
+        width: 100%;
+    }
+
+    .container3{ 
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container3 img {
+        width: 100%;
     }
 
 }
