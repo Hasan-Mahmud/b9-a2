@@ -224,4 +224,12 @@ i {
         margin-right: 20px;
     }
 
+    /* Popular Tours Style */
+
+    .our-popular-tours{
+        margin: 24px 0px;
+        flex-direction: column;
+        gap: 50px;
+    }
+
 }
