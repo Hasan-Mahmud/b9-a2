@@ -21,7 +21,7 @@
     line-height: 1.6rem
 }
 
-.center-align{
+.center-align {
     text-align: center;
 }
 
@@ -46,7 +46,7 @@
     text-align: center;
     color: #FFF;
     font-size: 1.2rem;
-    font-weight: 800; 
+    font-weight: 800;
 }
 
 input[type=text] {
@@ -88,7 +88,7 @@ i {
 
 }
 
-.top-margin{
+.top-margin {
     margin-top: 30px;
 }
 
@@ -151,7 +151,7 @@ i {
 }
 
 /* Popular Tours Section Style */
-.our-popular-tours{
+.our-popular-tours {
     margin: 100px 135px;
     display: flex;
     gap: 50px;
@@ -160,6 +160,55 @@ i {
 .popular-tour-list {
     padding: 20px
 }
+
+/* Destination Section Style */
+
+.destination{
+    margin: 0px 135px;
+}
+
+.destination-content{
+    width: 100%;
+    margin-top: 20px; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1{
+    display: inline-flex;
+    gap: 20px;
+}
+
+.container2{
+    display: inline-flex;
+    gap: 20px;
+}
+
+.container3{
+    display: inline-flex;
+    gap: 20px;
+}
+
+
+
+.destination-item {
+    position: relative;
+    text-align: center;
+    color: #FFF;
+}
+
+.destination-img-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+
 
 /* responsive for mobile or small device*/
 @media screen and (max-width : 600px) {
@@ -226,7 +275,7 @@ i {
 
     /* Popular Tours Style */
 
-    .our-popular-tours{
+    .our-popular-tours {
         margin: 24px 0px;
         flex-direction: column;
         gap: 50px;
