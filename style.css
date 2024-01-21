@@ -215,10 +215,13 @@ i {
 }
 
 .why-choose-card {
-    width: 80%;
+
+    width: 450px;
+    height: 284px;
     text-align: left;
     padding: 32px;
     margin-left: 55px;
+    margin-top: 48px;
 }
 
 .card-1 {
@@ -255,23 +258,23 @@ i {
     line-height: 26px;
 }
 
-.a{
+.a {
     grid-area: a;
 }
 
-.b{
+.b {
     grid-area: b;
 }
 
-.c{
+.c {
     grid-area: c;
 }
 
-.choose-us-content{
+.choose-us-content {
     display: grid;
-    grid-template-areas: 
-    " a a b b "
-    " . c c . "
+    grid-template-areas:
+        " a a b b "
+        " . c c . "
     ;
     gap: 20px;
     justify-content: center;
@@ -379,7 +382,7 @@ i {
     }
 
     .destination-text-content h2 {
-        color: var(--paragraph-color);
+        /* color: var(--paragraph-color); */
         font-size: 1.3rem;
         margin-top: 10px;
     }
@@ -419,39 +422,45 @@ i {
 
     /* Choose us Styles */
 
-    /* .choose-us{
-        margin: 100px 135px;
+    .choose-us {
+        margin: 0px;
         margin-top: 100px;
-    } */
+    }
 
-    /* .why-choose-card {
-        width: 573px;
-        height: 284px;
-        align-items: start;
-        text-align: left;
-        padding: 32px;
-    } */
-    /* .card-1 {
-        width: 573px;
-        height: 284px;
-        border-radius: 16px;
-        border: 1px solid rgba(251, 181, 99, 0.20);
-        background: rgba(251, 181, 99, 0.05);
+    .choose-us-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: -45px;
+    }
+
+
+
+    .why-choose-card {
+        width: 335px;
+        height: 200px;
+
     }
 
 
     .why-choose-card h3 {
-        font-size: 1.5rem;
-        color: var(--primary-color);
-        font-weight: 800;
+        font-size: 1.3rem;
     }
 
     .why-choose-card p {
-        margin-top: 16px;
-        color: var(--paragraph-color);
-        font-weight: 400;
-        line-height: 26px;
-    } */
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .choose-us .section-title {
+        font-size: 1.3rem;
+    }
+
+    .choose-us .primary-paragraph-text {
+        font-size: 12px;
+        line-height: 20px;
+    }
 
 
 }
