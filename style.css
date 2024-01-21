@@ -158,18 +158,19 @@ i {
 }
 
 .popular-tour-list {
-    padding: 20px
+    padding: 0px 35px;
 }
 
 /* Destination Section Style */
 
 /* .destination{
+    display:flexbox;
     margin: 0px 135px;
 } */
 
-.destination-content{
+.destination-content {
     width: 100%;
-    margin-top: 20px; 
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -177,17 +178,17 @@ i {
     align-items: center;
 }
 
-.container1{
+.container1 {
     display: inline-flex;
     gap: 20px;
 }
 
-.container2{
+.container2 {
     display: inline-flex;
     gap: 20px;
 }
 
-.container3{
+.container3 {
     display: inline-flex;
     gap: 20px;
 }
@@ -208,6 +209,74 @@ i {
     margin: 0;
 }
 
+/* Why choose us style */
+.choose-us {
+    margin: 100px 90px;
+}
+
+.why-choose-card {
+    width: 80%;
+    text-align: left;
+    padding: 32px;
+    margin-left: 55px;
+}
+
+.card-1 {
+    /* width: 573px;
+        height: 284px; */
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2 {
+    /* width: 573px;
+        height: 284px; */
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.why-choose-card img {
+    width: 15%;
+    margin-bottom: 32px;
+}
+
+.why-choose-card h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    font-weight: 800;
+}
+
+.why-choose-card p {
+    margin-top: 16px;
+    color: var(--paragraph-color);
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.a{
+    grid-area: a;
+}
+
+.b{
+    grid-area: b;
+}
+
+.c{
+    grid-area: c;
+}
+
+.choose-us-content{
+    display: grid;
+    grid-template-areas: 
+    " a a b b "
+    " . c c . "
+    ;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* responsive for mobile or small device*/
@@ -281,43 +350,65 @@ i {
         gap: 50px;
     }
 
-    /* destination styles for mobile */
-
-    .destination-content{
-        margin: 0px -5px;
-    }
-
-    .destination-text-content h2{
+    .popular-tours-content h2 {
         color: var(--paragraph-color);
         font-size: 1.3rem;
         margin-top: 10px;
     }
 
-    .destination-text-content p{
+    .popular-tours-content p {
         color: var(--paragraph-color);
         font-size: 12px;
         line-height: 20px;
     }
 
-    .container1{
+    .popular-tours-content li {
+        color: var(--paragraph-color);
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    /* destination styles for mobile */
+
+    .destination {
+        width: 100%;
+    }
+
+    .destination-content {
+        margin: 0px -5px;
+    }
+
+    .destination-text-content h2 {
+        color: var(--paragraph-color);
+        font-size: 1.3rem;
+        margin-top: 10px;
+    }
+
+    .destination-text-content p {
+        color: var(--paragraph-color);
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .container1 {
         display: flex;
         flex-direction: column;
     }
 
-    .container1 img{
+    .container1 img {
         width: 100%;
     }
 
-    .container2{ 
+    .container2 {
         display: flex;
         flex-direction: column;
     }
 
-    .container2 img{
+    .container2 img {
         width: 100%;
     }
 
-    .container3{ 
+    .container3 {
         display: flex;
         flex-direction: column;
     }
@@ -325,5 +416,42 @@ i {
     .container3 img {
         width: 100%;
     }
+
+    /* Choose us Styles */
+
+    /* .choose-us{
+        margin: 100px 135px;
+        margin-top: 100px;
+    } */
+
+    /* .why-choose-card {
+        width: 573px;
+        height: 284px;
+        align-items: start;
+        text-align: left;
+        padding: 32px;
+    } */
+    /* .card-1 {
+        width: 573px;
+        height: 284px;
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+    }
+
+
+    .why-choose-card h3 {
+        font-size: 1.5rem;
+        color: var(--primary-color);
+        font-weight: 800;
+    }
+
+    .why-choose-card p {
+        margin-top: 16px;
+        color: var(--paragraph-color);
+        font-weight: 400;
+        line-height: 26px;
+    } */
+
 
 }
