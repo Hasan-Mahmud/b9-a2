@@ -385,6 +385,12 @@ i {
     gap: 20px;
 }
 
+/* Footer style */
+.footer {
+    width: 100%;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
 
 
 /* responsive for mobile or small device*/
