@@ -621,6 +621,53 @@ i {
         font-size: 12px;
         line-height: 20px;
     }
+ /* newsletter styles */
 
+ .newsletter {
+    margin: 40px 0px;
+}
+
+.newsletter-content {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.newsletter-form {
+    width: 88%;
+    height: 350px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.newsletter-img-bg {
+    width: 100%;
+    
+}
+
+#news-btn {
+    width: 224px;
+    height: 80px;
+    transform: rotate(-30deg) translateY(-45px) scale(1);
+
+}
+
+#news-btn h3 {
+    font-size: 1.2rem;
+}
+
+#news-btn h4 {
+    font-size: 15px;
+}
+
+.newsletter-form h3 {
+    font-size: 1.2rem;
+}
+
+.newsletter-form p {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+/* footer */
 
 }
