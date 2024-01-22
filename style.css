@@ -670,4 +670,46 @@ i {
 
 /* footer */
 
+.footer {
+    height: 400px;
+}
+
+.footer-logo {
+    margin: 0px;
+    padding-top: 70px;
+    gap: 10px;
+
+}
+
+.footer-logo img{
+    width: 10%;
+}
+
+.footer-title {
+    font-size: 20px;
+}
+
+
+.footer-des {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.social-img{
+    width: 5%;
+}
+
+.footer-social-link{
+    margin-top: 35px;
+    display: inline-flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer hr {
+    width: 80%;
+    margin: 40px 40px;
+}
+
 }
